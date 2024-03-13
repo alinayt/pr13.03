@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+#wrapper{
+    width: 1500px;
+    margin: 0 auto;
+}
+#firstHeading
+{
+    margin-bottom: 30px;
+}
+body {
+    margin: 0;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        background: #F4F4F4;
+      }
+
+ul{
+    margin: 0;
+    list-style-type: none;
+}
+
+.logoo{
+    height: 70px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    line-height: 80px;
+    background-color: #1A3D73;
+}
+.nav-list li {
+    display: inline-block;
+    padding: 0 20px;
+    color: rgb(217, 159, 33);
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.link{
+    position: relative;
+}
+
+ .link::after{
+    content: "";
+    background: #F99E35;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition:all .25s ease;
+
+ }
+
+ 
+ .dog{
+    height: 50;
+ }
+
+.thumbinner img{
+    max-width: 320px;
+    height: auto;
+}
+
+ *{
+    margin: 0 0;
+    padding: 0 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #3261a7;
+}
+
+.zmist{
+    width: 300px;
+    background-color: #ebf0f6;
+    border-radius: 5px;
+}
+.zmist_head{
+    background-color: #a2b2c9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px 5px 0px 0px;
+}
+.to_hide{
+    display: flex;
+    align-items:start;
+}
+.to_hide img{
+    width: 25px;
+    height: 25px;
+}
+.to_hide p{
+    display: block;
+    height: 10px;
+}
+.to_hide a{
+    color: #3261a7;
+}
+.zmist_head h3{
+    color: #1f4075;
+}
+.zmist ol{
+    padding: 20px;
+    list-style-type: none;
+    counter-reset: item;
+    color: #1f4075;
+}
+.zmist li:before {
+    content: counter(item) '  '; /* Додаємо до чисел дужку */
+    counter-increment: item; /* Задаємо ім'я лічильника */
+}
+
+ .active:hover{
+    background: #142f5a;
+    cursor: pointer;
+}
+.link{
+    color: inherit;
+}
+ .active{
+    position: relative;
+ }
+
+ .active::after{
+    content: "";
+    background: #F99E35;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition:all .25s ease;
+
+ }
+
+ .active:hover::after{
+    transform: scaleX(1);
+ }
+
+ .dog{
+    height: 50;
+ }
+.vue-page__content{
+    background-color: white;
+    margin: 20px 50px 40px 30px;
+    padding: 64px;
+}
+div.thumb__tright {
+    clear: right;
+    float: right;
+}
+.thumbimage{
+    margin-left: 200px;
+}
+.text{
+    margin-left: 200px;
+}
+.content{
+    max-width: 600px;
+    text-align: justify;
+}
+.vue-article-content{
+    display: inline-flex;
+}
+.thumbinner{
+    margin-top: -70px;
+    text-align: center;
+}
